@@ -1,0 +1,20 @@
+# Ignore node_modules (dependencies will be installed inside the container)
+node_modules
+npm-debug.log
+
+# Ignore build files (Docker will generate a new build)
+build
+
+# Ignore environment files (store secrets outside the image)
+.env
+.env.local
+
+# Ignore IDE/editor configuration files
+.vscode
+.idea
+*.swp
+
+# Ignore logs and cache
+logs
+*.log
+yarn.lock
