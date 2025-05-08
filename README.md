@@ -61,3 +61,9 @@ docker run -p 8080:80 client-management-frontend
 ## 🌐 Environment
 
 Make sure the frontend can reach the backend API (e.g., via environment config or proxy).
+
+---
+## 🔗 Related Repositories
+
+- 📦 [Client Management Backend](https://github.com/salmanmohammeddev/client-management-backend)
+
